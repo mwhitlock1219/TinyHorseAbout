@@ -1,0 +1,147 @@
+.aboutbackground{
+  display:flex;
+  background-image: url(aboutheader.JPG);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -1100px;
+}
+
+.headertext, .headertext1 {
+  font-family: 'Libre Caslon Text', serif;
+  color: white; 
+  font-size: 55px;
+  letter-spacing: 1px;
+  line-height: 1.5 !important;
+}
+
+.borderimg{
+        background-repeat: no-repeat;
+        background-image: url(gradientbar.jpg);
+        background-size: stretch;
+        background-position: center center;
+        height: 44px;
+        width: 100%;
+        margin-bottom: 0;
+      }
+
+.bg-1 {
+    background-color: #f4eae9; 
+    color: black;
+  }
+.bg-2 {
+    background-color: white; 
+    color:black;
+  }
+.bg-3 {
+    background-color: white; 
+    color: black;
+  }
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navlogo{
+  max-height: 44px;
+}
+.navbar{
+  max-height: 44px;
+}
+  .navbar-brand{
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 15px;
+  }
+  .nav-item{
+    font-size: 15px;
+  }
+
+  .bg-dark{
+    background-color: black !important;
+  }
+
+h3{
+  font-family: 'Libre Caslon Text', serif;
+  font-weight: 400px;
+  line-height: 2;
+  font-size: 25px;
+  margin-bottom: 1em;
+  color: black;
+  text-align: left;
+}
+
+#sectiontitles {
+  text-align: center;
+}
+p {
+  font-weight: 400px;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.LibreText {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: 400px;
+
+}
+.slide-in-bottom {
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+footer{
+    background-color: black;
+    text-transform: uppercase;    
+}
+.footlogo{
+    margin: -2em;
+}
+.footer-row{
+    padding: 5em  5em  3.5em  5em;
+}
+.address, .cities{
+    line-height: 1.75em;
+    color: white;    
+}
+.copyright{
+    font-family: 'Libre Caslon Text', serif;
+    color: #5c7c91;
+    font-size: 10px;
+    padding-bottom: 2em;
+    padding-left: 4%;
+}
+.copyright a{
+    color: #5c7c91;
+}
+.copyright a:hover{    color: #e35443;
+}
